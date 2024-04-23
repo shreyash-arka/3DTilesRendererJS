@@ -25,6 +25,8 @@ const tempVector = new Vector3();
 const X_AXIS = new Vector3( 1, 0, 0 );
 const Y_AXIS = new Vector3( 0, 1, 0 );
 
+
+
 function updateFrustumCulled( object, toInitialValue ) {
 
 	object.traverse( c => {
